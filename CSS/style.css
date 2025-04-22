@@ -1,0 +1,107 @@
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0; 
+}
+
+.hero-banner {
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.5), #00000080), 
+    url('../mes images/orange  (1).jpg') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    position: relative;
+    color: white;
+   
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%; 
+}
+
+.nav-item {
+    background: hsl(114, 98%, 33%); 
+    padding: 15px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+.nav-list:hover{
+    color:  hsl(114, 74%, 74%); 
+}
+
+button{
+    width: 110px;
+    height: 40px;
+    background: hsl(114, 98%, 33%);
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 15px;
+    border: none;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+ 
+}
+button:hover{
+    background: #ffffff;
+    color: hsl(114, 98%, 33%); 
+}
+
+/* Partie main */
+
+.container-parent{
+    display: flex;
+    position: absolute;
+    gap: 15px;
+    margin-left: 16%;
+    margin-top: 10%;
+    
+    
+}
+
+.img-juice{
+    width: 325px;
+    height: 325px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.img-juice:hover {
+    transform: scale(1.03); 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+   
+   
+}
+
+button{
+    background-color: hsl(114, 98%, 33%); 
+    color: #ffffff;
+    border: none;
+    width: 100px;
+    height: 35px;
+}
+
+button:hover{
+    background-color: #ffffff;
+    color:  hsl(114, 98%, 33%); 
+   
+}
+
+.paragraphe{
+    margin-right: 30px;
+}
